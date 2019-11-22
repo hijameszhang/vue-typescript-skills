@@ -20,4 +20,5 @@ import Child from './Child.vue'
 export default class Parent extends Vue {
   price = 'hello price'
 }
+
 </script>
