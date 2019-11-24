@@ -27,6 +27,11 @@ const routes = [
     path: '/provide',
     name: 'provide',
     component: () => import(/* webpackChunkName: "model" */ '../views/provideInject/Parent.vue')
+  },
+  {
+    path: '/useVuex',
+    name: 'useVuex',
+    component: () => import(/* webpackChunkName: "model" */ '../views/UseVuex.vue')
   }
 ]
 
