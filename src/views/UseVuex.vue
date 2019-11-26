@@ -15,5 +15,9 @@ const $myMod = getModule(MyModule)
 @Component
 export default class UseVuex extends Vue {
   hello: string = $myMod.someField
+
+  created () {
+    window.console.log($myMod)
+  }
 }
 </script>
