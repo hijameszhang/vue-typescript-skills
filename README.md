@@ -1,4 +1,4 @@
-# vue-typescript-skills
+# vue-typescript-demo
 
 ## Project setup
 ```

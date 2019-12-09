@@ -11,10 +11,9 @@ declare global {
     }
   }
 }
-
-
 declare global {
   interface Window {
+    SystemJS: any;
     $vm: any;
   }
 }
